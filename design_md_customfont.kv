@@ -1,0 +1,23 @@
+#:kivy 2.0.0
+
+<MyLayout>:
+    BoxLayout:
+        orientation: 'vertical'
+        size: root.width, root.height
+
+        paddding: 20
+        spacing: 20
+        Label: 
+            #when importing have to set the color of text
+            text: 'BrookSys Technologies - in Neo Sans font '
+            color: 1,0,0,1 # setting color of text to red RGBA
+            font_name: 'Neosans'
+            font_size: dp(20)
+            
+        Label:
+            text: 'This text is in the Roboto Font'
+            font_size: dp(20)
+            #havent set the color and it appears as white
+            color: 0,1,0,1
+            #setting the textcolor to green
+
